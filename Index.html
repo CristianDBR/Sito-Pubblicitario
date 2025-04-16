@@ -25,7 +25,7 @@
             align-items: center;
             justify-content: center;
             font-size: 1.5rem;
-            color: white;
+            color: rgb(0, 0, 0);
         }
 
         .carousel-inner {
@@ -61,6 +61,7 @@
 
         .card {
             height: 100%;
+            background-color:#e0f7fa; 
         }
     </style>
 </head>
@@ -89,9 +90,19 @@
                 <img src="/Logo.png" alt="" width="27" height="20">
                 <span class="hide-on-collapse">Home</span>
             </a>
+           
+
+            <a href="#" class="sidebar-link text-decoration-none p-3 text-white">
+                <img src="/Giochi.png" alt="" width="34" height="27">
+                <span class="hide-on-collapse">Giochi</span>
+            </a>
             <a href="#" class="sidebar-link text-decoration-none p-3 text-white">
                 <img src="/Accesori.png" alt="" width="27" height="20">
                 <span class="hide-on-collapse">Accessori</span>
+            </a>
+            <a href="#" class="sidebar-link text-decoration-none p-3 text-white">
+                <img src="/Carrello.png" alt="" width="27" height="20">
+                <span class="hide-on-collapse">Carrello</span>
             </a>
         </div>
 
@@ -124,11 +135,11 @@
                 </div>
             </div>
             
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -153,15 +164,15 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+                  </button>
+                </div>
             
             
 
@@ -174,27 +185,24 @@
                             <div class="card-body">
                                 <h5 class="card-title">Velocità incredibile</h5>
                                 <p class="card-text">Entra in azione e continua a giocare con la tecnologia della console integrata e ultra-veloce</p>
-                                <a href="#" class="card-link">Grafica straordinaria e una velocità incredibile</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="card h-100 shadow-sm">
-                            <img src="https://www.example.com/product2.jpg" class="card-img-top" alt="Product 2">
+                            <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-overview-breath-taking-immersion-image-block-01-en-09jul24?$1600px$" class="card-img-top" alt="Product 2">
                             <div class="card-body">
-                                <h5 class="card-title">PlayStation 5 Controller</h5>
-                                <p class="card-text">La nuova esperienza di gioco con il controller PS5.</p>
-                                <button class="btn btn-primary">Acquista</button>
+                                <h5 class="card-title">Coinvolgimento mozzafiato</h5>
+                                <p class="card-text">Immergiti nel cuore del gioco con controlli reattivi, audio a 360 gradi1 e intricati dettagli grafici. </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="card h-100 shadow-sm">
-                            <img src="https://www.example.com/product3.jpg" class="card-img-top" alt="Product 3">
+                            <img src="https://gmedia.playstation.com/is/image/SIEPDC/The-last-of-us-part-ii-remastered-packshot-01-26feb24$it?$1600px$" class="card-img-top" alt="Product 3">
                             <div class="card-body">
-                                <h5 class="card-title">PlayStation 5 Headset</h5>
-                                <p class="card-text">Vivi l'esperienza audio immersiva con l'headset PS5.</p>
-                                <button class="btn btn-primary">Acquista</button>
+                                <h5 class="card-title">Giochi straordinari</h5>
+                                <p class="card-text">Esplora spettacolari nuovi mondi in esclusivi e rivoluzionari giochi per console PlayStation.</p>
                             </div>
                         </div>
                     </div>
@@ -203,21 +211,19 @@
                 <div class="row justify-content-center g-4 mt-4">
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="card h-100 shadow-sm">
-                            <img src="https://www.example.com/product4.jpg" class="card-img-top" alt="Product 4">
+                            <img src="https://gmedia.playstation.com/is/image/SIEPDC/spider-man-2-ps5-overview-image-block-02-en-27jun24?$1600px$" class="card-img-top" alt="Product 4">
                             <div class="card-body">
-                                <h5 class="card-title">PlayStation 5 Charging Station</h5>
-                                <p class="card-text">Mantieni la tua console e controller sempre carichi.</p>
-                                <button class="btn btn-primary">Acquista</button>
+                                <h5 class="card-title">Colori vivaci & grafica 4K nitida</h5>
+                                <p class="card-text">Dettagli complessi prendono vita con il tuo TV 4K e i giochi per PS5 compatibili. Con un TV HDR, i giochi per PS5 supportati prendono vita con una gamma di colori incredibili.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="card h-100 shadow-sm">
-                            <img src="https://www.example.com/product5.jpg" class="card-img-top" alt="Product 5">
+                            <img src="https://gmedia.playstation.com/is/image/SIEPDC/gt7-ps5-overview-image-block-01-en-19jun24?$1600px--t$" class="card-img-top" alt="Product 5">
                             <div class="card-body">
-                                <h5 class="card-title">Accessori PS5</h5>
-                                <p class="card-text">Scopri tutti gli accessori per una migliore esperienza di gioco.</p>
-                                <button class="btn btn-primary">Acquista</button>
+                                <h5 class="card-title">Viaggia attraverso gli universi di gioco con una reattività incredibile</h5>
+                                <p class="card-text">Un'azione di gioco fluida e scorrevole grazie alla frequenza fotogrammi elevata per i giochi compatibili.</p>
                             </div>
                         </div>
                     </div>
